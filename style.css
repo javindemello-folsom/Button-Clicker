@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 900px;
+    height: 100%;
+    background-color: white;
+    margin: 0px 50px;
+}
+
+/* NAVBAR */
+.navbar{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.navbar input{
+    width: 300px;
+    border: solid black 3px;
+}
+
+.navbar button{
+    padding: 2px 10px;
+    background-color: rgb(35, 132, 230);
+    color: white;
+    border: solid black 2px;
+    box-shadow: 4px 4px black;
+}
+
+/* MAIN PAGE */
+.mainpage{
+    display: flex;
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+/* LEFT MAIN */
+.leftmain{
+    width: 550px;
+    margin-right: 25px;
+}
+
+.ninja1, .ninja2{
+    display: flex;
+    height: 200px;
+    border: solid black 3px;
+    align-items: center;
+}
+.ninja1{
+    margin-bottom: 25px;
+}
+
+.leftcol{
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+.rightcol{
+    padding: 70px 40px;
+}
+
+.leftcol button, .rightcol button{
+    background-color: rgb(255, 208, 0);
+    padding: 5px 10px;
+    border: solid black 2px;
+    box-shadow: 4px 4px black;
+}
+
+.leftcol h1, .leftcol h4, .leftcol button{
+    margin-bottom: 10px;
+}
+
+.leftcol button{
+    margin-top: 20px;
+}
+
+
+/* RIGHT MAIN */
+.rightmain{
+   width: 325px;
+   height: 100px;
+   padding: 10px;
+   border: solid black 3px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.rightmain button{
+    background-color: rgb(89, 193, 107);
+    padding: 5px 10px;
+    border: solid black 2px;
+    box-shadow: 4px 4px black;
+    width: 200px;
+}
